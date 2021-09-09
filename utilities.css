@@ -47,11 +47,31 @@
   }
   
 
+figure{ 
+  position: absolute;
+}
+
+ figcaption {
+  background: rgba(0, 0, 0, 0.5);
+  color: grey;
+  font-style: italic;
+  position: absolute;
+  align-self: flex-end;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 img{
-  width: auto;
+  display: block;
+  width: 800px;
   height: auto;
   position: absolute;
   z-index: 1;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  
+
 }
 
 .image1{
@@ -75,23 +95,7 @@ img{
 }
 
 
-figcaption {
-  display: block;
-  text-align: center;
-  width: 100%;
-  padding: 2px;
-  
-}
-  
-/* background-color: black;
-  color: grey;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-  margin: 20px;
 
-}
- */ 
 
   /* Button Styles */
   
