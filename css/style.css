@@ -1,7 +1,7 @@
-@import url("main.css"); 
-@import url("utilities.css");
-@import url("mobile.css");
-@import url(blog-page.css);
+@import url("css/main.css"); 
+@import url("css/utilities.css");
+@import url("css/mobile.css");
+@import url("css/blog-page.css");
 
 :root {
     --primary-color: #e9e2f1;
